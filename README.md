@@ -5,29 +5,29 @@ Git-repository for the code generated for the assignments in the Information Ret
 About git
 ----------
 
-We will use git mainly as a fast way to share code and update it. So basc knowledge should be enough.
+We will use git mainly as a fast way to share code and update it. So basic knowledge should be enough.
 As for the windows users, I never used git on windows, but the software available under this link seems to provide the necessary capabilities:
 https://git-for-windows.github.io/
 
 
 Some useful git comands:
 
-- git status	
+- git status:	
 	shows the status of your files in your repository, for example whether it is up to date with the repository, or what your uncommitted files are
 
-- git update
+- git update:
 	updates your local repostory
 
-- git add
+- git add:
 	adds changed files to be committed. Add entire folders with "folder/*"
 
-- git commit
+- git commit:
 	commits added changes which are to be pushed later. For us it is probably not necessary to put detailed commit-messages.
 
-- git push (master/origin)
+- git push (master/origin):
 	pushed your committed (local) changes to the repository
 
-- ".gitignore"
+- ".gitignore":
 	.gitignore is a hidden file, in which you can define what kind of files are to be ignored by git, and thus not shown in "git status", for example "*.bin" or "test/*"
 
 
